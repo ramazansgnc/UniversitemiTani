@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8EEEC"
+    android:elevation="0dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imvCalculator"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:elevation="2dp"
+                android:onClick="clcGoCalculator"
+                android:padding="0dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView18"
+                app:srcCompat="@drawable/calculator" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="1dp"
+                android:scaleX="1"
+                android:scaleY="1.7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imvCalculator"
+                app:layout_constraintStart_toStartOf="@+id/imvCalculator"
+                app:layout_constraintTop_toTopOf="@+id/imvCalculator"
+                app:srcCompat="@drawable/white_background_resource" />
+
+            <ImageView
+                android:id="@+id/imvImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:elevation="2dp"
+                android:onClick="clcGoImage"
+                android:padding="0dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imvUstPanel"
+                app:srcCompat="@drawable/gallery" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:elevation="1dp"
+                android:scaleX="1.1"
+                android:scaleY="1.7"
+                app:layout_constraintEnd_toEndOf="@+id/imvFaculty"
+                app:layout_constraintStart_toStartOf="@+id/imvFaculty"
+                app:layout_constraintTop_toTopOf="@+id/imvFaculty"
+                app:srcCompat="@drawable/white_background_resource" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="390dp"
+                android:layout_height="172dp"
+                android:elevation="1dp"
+                android:scaleX="1.83"
+                android:scaleY="1.23"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/white_background_resource" />
+
+            <ImageView
+                android:id="@+id/imvWebSite"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:elevation="2dp"
+                android:onClick="clcGoWebSite"
+                android:padding="0dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imvImage"
+                app:srcCompat="@drawable/website" />
+
+            <ImageView
+                android:id="@+id/imvUstPanel"
+                android:layout_width="390dp"
+                android:layout_height="160dp"
+                android:elevation="2dp"
+                android:scaleX="1.52"
+                android:scaleY="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView9"
+                app:srcCompat="@drawable/top_background" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:elevation="1dp"
+                android:scaleX="1.1"
+                android:scaleY="1.45"
+                app:layout_constraintEnd_toEndOf="@+id/imvWebSite"
+                app:layout_constraintStart_toStartOf="@+id/imvWebSite"
+                app:layout_constraintTop_toBottomOf="@+id/imvImage"
+                app:srcCompat="@drawable/white_background_resource" />
+
+            <ImageView
+                android:id="@+id/imvFaculty"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:elevation="2dp"
+                android:onClick="clcGoFaculty"
+                android:padding="0dp"
+                android:scaleX="1"
+                android:scaleY="1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imvWebSite"
+                app:srcCompat="@drawable/faculty" />
+
+            <ImageView
+                android:id="@+id/imageViewiv15"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:elevation="1dp"
+                android:scaleX="1.1"
+                android:scaleY="1.35"
+                app:layout_constraintEnd_toEndOf="@+id/imvImage"
+                app:layout_constraintStart_toStartOf="@+id/imvImage"
+                app:layout_constraintTop_toTopOf="@+id/imvImage"
+                app:srcCompat="@drawable/white_background_resource"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="3dp"
+                android:text="Merhaba"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toTopOf="@+id/tvAdSoyad"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/tvAdSoyad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="90dp"
+                android:elevation="3dp"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:elevation="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/profile" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/white_background_rectangle_resource_shadow"/>
+    <item
+        android:drawable="@drawable/white_background"
+        android:width="327dp"
+        android:height="59dp"
+        android:gravity="center"/>
+
+</layer-list>
